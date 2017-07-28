@@ -248,7 +248,7 @@ nav  li a{
 
   #sobre-mi{
       width: 100%;
-      height: 500px;
+      height: 400px;
       color:black;
       margin-left: -.5%;
   }
@@ -275,7 +275,7 @@ nav  li a{
    box-shadow: 3px 3px gray, -1em 0 0.4em gray;
   }
   #info{
-    height: 300px;  
+    height: 200px;  
 
   }
   #info .subir{
@@ -309,16 +309,16 @@ nav  li a{
     top: 30%;
   }
   .circle.yo{
-    width: 100px;
-    height:100px;
+    width: 90px;
+    height:90px;
     position: absolute;
     left:50%;
-    top:96%;
+    top:83%;
   }
 
   .logo img{
-      width: 30%;
-      height: 60px;
+      width: 20%;
+      height: 40px;
       margin-left: 3%;
   }
   .card{
@@ -331,8 +331,8 @@ nav  li a{
   }
   .img-data{
     position: absolute;
-    left:3% !important;
-    width: 100;
+    left:1% !important;
+    width: 100%;
     height: 300px;
     z-index: -2;
     box-shadow: 3px 3px gray, -1em 0 0.4em gray;
