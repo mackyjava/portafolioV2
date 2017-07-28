@@ -38,6 +38,10 @@ nav{
 
 div.col.card-pad {
   padding: 2%;
+  
+}
+.card-pad > div{
+  box-shadow: 3px 3px gray, -1em 0 0.4em gray;
 }
 .card>div.modal {
   width: 60%;
@@ -55,7 +59,7 @@ div.col.card-pad {
 
 #sobre-mi{
     width: 102%;
-    height: 450px;
+    height: 500px;
     color:black;
     margin-left: 5%;
 }
@@ -73,11 +77,11 @@ span a{
 .borde{
   border-radius: 6px;
   background-color: #fff;
+ box-shadow: 3px 3px gray, -1em 0 0.4em gray;
 }
 #info{
-  height: 230px;
-  /*font-family: "Varela";
-}*/
+  height: 300px;  
+
 }
 #info .subir{
 
@@ -125,18 +129,19 @@ img.circle{
   width: 250px;
   height:250px;
   position: absolute;
-  left:75%;
-  top:145%;
+  left:68%;
+  top:143%;
 }
 
 .logo img{
-    width: 60%;
+    width: 90%;
     height: 300px;
     margin-left: 40%;
 }
 .card{
   border-radius: 7%;
   font-size:19px;
+  box-shadow: 3px 3px gray, -1em 0 0.4em gray;
 }
 .ma-l{
   margin-left: 10% !important;
@@ -145,6 +150,7 @@ img.circle{
   position: absolute;
   left:15%;
   z-index: -2;
+  box-shadow: 3px 3px gray, -1em 0 0.4em gray;
 }
 footer{
     margin-top: -1.5%;
