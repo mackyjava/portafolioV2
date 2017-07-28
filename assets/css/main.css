@@ -80,7 +80,7 @@ span a{
  box-shadow: 3px 3px gray, -1em 0 0.4em gray;
 }
 #info{
-  height: 300px;  
+  height: 400px;  
 
 }
 #info .subir{
@@ -126,11 +126,8 @@ img.circle{
   top: 30%;
 }
 .circle.yo{
-  width: 250px;
-  height:250px;
-  position: absolute;
-  left:69%;
-  top:143%;
+  width: 200px;
+  height:200px;
 }
 
 .logo img{
@@ -147,10 +144,11 @@ img.circle{
   margin-left: 10% !important;
 }
 .img-data{
-  position: absolute;
-  left:15%;
+ /* position: absolute;
+  margin-left: -30%*/
   z-index: -2;
   box-shadow: 3px 3px gray, -1em 0 0.4em gray;
+  height: 450px;
 }
 footer{
     margin-top: -1.5%;
@@ -311,11 +309,7 @@ nav  li a{
   .circle.yo{
     width: 90px;
     height:90px;
-    position: absolute;
-    left:50%;
-    top:83%;
   }
-
   .logo img{
       width: 20%;
       height: 40px;
