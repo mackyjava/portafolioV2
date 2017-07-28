@@ -129,7 +129,7 @@ img.circle{
   width: 250px;
   height:250px;
   position: absolute;
-  left:68%;
+  left:69%;
   top:143%;
 }
 
@@ -188,4 +188,192 @@ nav  li a{
     font-size: 19px;
 }
 @media(max-width: 650px) {
+  body{
+    overflow-x: hidden;
+    font-family: 'Space Mono', monospace;
+    background-color: #CAC2B5;
+  }
+  nav{
+    background-color: #0F110C ;
+    padding:0;
+    margin:0;
+    width: 100%;
+    position:absolute;
+  }
+  .nombre{
+    
+      font-size:35px;
+      font-weight: 500px;
+      color: #E3D7FF;
+      text-shadow: black 4px 4px;
+      margin-top: 15%;
+  }
+   .sub{
+    /*font-family: 'Varela', cursive;*/
+    font-size:20px;
+    color: #E3D7FF;
+    text-shadow: black 4px 4px;
+    opacity:1;
+  }
+
+  .home{
+    width: 100%;
+    background-image: url(../img/caffe.jpg);
+    background-repeat: no-repeat;
+    background-size:contain;
+    margin-top: -9%;
+    height:300px;
+  }
+
+  div.col.card-pad {
+    padding: 2%;
+    
+  }
+  .card-pad > div{
+    box-shadow: 3px 3px gray, -1em 0 0.4em gray;
+  }
+  .card>div.modal {
+    width: 60%;
+    max-height: 100%;
+  }
+  .img-modal{
+    width:50%;
+  }
+  .margin-t{
+      margin-top: 5%;
+  }
+  .bajar{
+    margin-top: 6%;
+  }
+
+  #sobre-mi{
+      width: 100%;
+      height: 500px;
+      color:black;
+      margin-left: -.5%;
+  }
+  #sobre-mi p{
+   font-size: 15px;
+  }
+  #sobre-mi h4{
+  font-size: 20px;
+  }
+  span.icono-dos img{
+    margin-top: 10%;
+    width: 30px;
+    height: 30px;
+    border-radius: 6px;
+
+  }
+  span a{
+    font-size: 16px;
+    color: white;
+  }
+  .borde{
+    border-radius: 6px;
+    background-color: #fff;
+   box-shadow: 3px 3px gray, -1em 0 0.4em gray;
+  }
+  #info{
+    height: 300px;  
+
+  }
+  #info .subir{
+
+    margin-top:-2%;
+  }
+  div.info{
+      width: 80%;
+      height: 200px;
+      
+  }
+  .margin-l{
+    margin-left: 30%;
+  }
+  #mis-proyectos{
+
+     width: 100%;
+     height: 1150px;
+    
+  }
+  #skills{
+    width: 100%;
+    height: 300px;
+  }
+  img.circle{
+    width: 200px;
+    height:180px;
+    background-color: black;
+  }
+  .icono{
+    top: 30%;
+  }
+  .circle.yo{
+    width: 100px;
+    height:100px;
+    position: absolute;
+    left:50%;
+    top:96%;
+  }
+
+  .logo img{
+      width: 30%;
+      height: 60px;
+      margin-left: 3%;
+  }
+  .card{
+    border-radius: 7%;
+    font-size:16px;
+    box-shadow: 3px 3px gray, -1em 0 0.4em gray;
+  }
+  .ma-l{
+    margin-left: 10% !important;
+  }
+  .img-data{
+    position: absolute;
+    left:10% !important;
+    z-index: -2;
+    box-shadow: 3px 3px gray, -1em 0 0.4em gray;
+  }
+  footer{
+      margin-top: -1.5%;
+      width: 100%;
+      background-color: #333333;
+      height: 600px;
+  }
+  footer>div{
+    background-image: url(../img/tron.jpg);
+    height: 365px;
+    margin-top: 5%;
+    background-size:100%;
+  }
+  span.icono img{
+      width: 20px;
+      height: 20px;
+      border-radius: 100%;
+      position:inherit;
+      margin-top: 2.5%;
+  }
+  .margin-l{
+      margin-left: 65px !important;
+  }
+
+  .card img:hover{
+      transform: scale(1.5);
+  }
+  nav  li a{
+      font-size: 17px;
+  }
+  .row p{
+      font-size: 20px;
+  }
+  .card p{
+      font-size: 14px;
+  }
+  #contacto >div{
+    width: 100%;
+    height: 450px;
+    margin-left: -.5%;
+  }
+}
  
