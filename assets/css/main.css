@@ -329,6 +329,13 @@ nav  li a{
   .ma-l{
     margin-left: 10% !important;
   }
+  #sidenav-overlay{
+    position: absolute;
+    z-index:3;
+  }
+  .side-nav{
+    height: 200px;
+  }
   .img-data{
     position: absolute;
     left:1% !important;
