@@ -1,0 +1,184 @@
+body{
+  overflow-x: hidden;
+  font-family: 'Space Mono', monospace;
+  background-color: #CAC2B5;
+}
+nav{
+	background-color: #0F110C ;
+  padding:0;
+  margin:0;
+  width: 100%;
+  position:absolute;
+}
+.nombre{
+	
+    font-size:75px;
+    font-weight: 600px;
+	  color: #E3D7FF;
+    text-shadow: black 4px 4px;
+    margin-top: 15%;
+}
+ .sub{
+ 	/*font-family: 'Varela', cursive;*/
+  font-size:75px;
+  font-size: 40px;
+	color: #E3D7FF;
+  text-shadow: black 4px 4px;
+  opacity:1;
+}
+
+.home{
+  width: 102%;
+  background-image: url(../img/caffe.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+	margin-top: -9%;
+	height:700px;
+}
+
+div.col.card-pad {
+  padding: 2%;
+}
+.card>div.modal {
+  width: 60%;
+  max-height: 100%;
+}
+.img-modal{
+  width:50%;
+}
+.margin-t{
+    margin-top: 5%;
+}
+.bajar{
+	margin-top: 6%;
+}
+
+#sobre-mi{
+    width: 102%;
+    height: 450px;
+    color:black;
+    margin-left: 5%;
+}
+span.icono-dos img{
+  margin-top: 10%;
+  width: 67px;
+  height: 67px;
+  border-radius: 6px;
+
+}
+span a{
+  font-size: 16px;
+  color: white;
+}
+.borde{
+  border-radius: 6px;
+  background-color: #fff;
+}
+#info{
+  height: 230px;
+  /*font-family: "Varela";
+}*/
+}
+#info .subir{
+
+  margin-top:-2%;
+}
+div.info{
+    width: 80%;
+    height: 200px;
+    
+}
+.margin-l{
+  margin-left: 30%;
+}
+#mis-proyectos{
+
+   width: 102%;
+   height: 600px;
+  
+}
+.content{
+    width: 80%;
+    height: 200px;
+   
+}
+#skills{
+  margin-top:-1.5%;
+  
+   width: 102%;
+   height: 700px;
+}
+.skills{
+    width: 80%;
+    height: 500px;
+    
+}
+img.circle{
+  width: 200px;
+  height:180px;
+  background-color: black;
+}
+.icono{
+  top: 30%;
+}
+.circle.yo{
+  width: 250px;
+  height:250px;
+  position: absolute;
+  left:75%;
+}
+
+.logo img{
+    width: 60%;
+    height: 300px;
+    margin-left: 40%;
+}
+.card{
+  border-radius: 7%;
+  font-size:19px;
+}
+.ma-l{
+  margin-left: 10% !important;
+}
+.img-data{
+  position: absolute;
+  left:15%;
+  z-index: -2;
+}
+footer{
+    margin-top: -1.5%;
+    width: 102%;
+    background-color: #333333;
+    height: 500px;
+}
+footer>div{
+  background-image: url(../img/tron.jpg);
+  height: 365px;
+  margin-top: 5%;
+  background-size:cover;
+}
+span.icono img{
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+    position:inherit;
+    margin-top: 2.5%;
+}
+.margin-l{
+    margin-left: 65px !important;
+}
+
+.card img:hover{
+    transform: scale(1.5);
+}
+nav  li a{
+    font-size: 17px;
+}
+.row p{
+    font-size: 25px;
+}
+.card p{
+    font-size: 19px;
+}
+@media(max-width: 650px) {
+ 
